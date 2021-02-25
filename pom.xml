@@ -24,8 +24,8 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <trantor-maven-plugin.version>0.13.0-SNAPSHOT</trantor-maven-plugin.version>
-        <trantor.version>0.13.0-SNAPSHOT</trantor.version>
+        <trantor-maven-plugin.version>0.14.1-SNAPSHOT</trantor-maven-plugin.version>
+        <trantor.version>0.14.1-SNAPSHOT</trantor.version>
         <revision>1.0.0-SNAPSHOT</revision>
     </properties>
 

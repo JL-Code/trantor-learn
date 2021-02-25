@@ -1,5 +1,6 @@
 # trantor.yml 文件主要声明 模块key(模块 key 只能由小写字母和下划线和中划线组成)、
 # 模块名称、模块版本、模块描述, 以及模块依赖等信息
+# http://trantor.terminus.io:8099/view/meta_store_management_ProjectForm_Project_Form?_keep=_m%2C_tenant&_m=%3A%3A&_tenant=1&action=meta_store_management_ProjectForm_toEdit&modelKey=tenant_Project
 product:
   key: mecode_trantor_poc # 有什么用？
   version: 0.0.1-SNAPSHOT
