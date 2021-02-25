@@ -1,0 +1,33 @@
+[
+  {
+    "key": "List",
+    "name": "用户列表",
+    "type": "List",
+    "forModel": "trantor_poc_User",
+    "template": "user-list-view.xml",
+    "isDefault": true
+  },
+  {
+    "key": "Form",
+    "name": "用户表单",
+    "type": "Form",
+    "forModel": "trantor_poc_User",
+    "template": "user-form-view.xml",
+    "isDefault": true
+  },
+  {
+    "key": "Detail",
+    "name": "用户详情",
+    "type": "Detail",
+    "forModel": "trantor_poc_User",
+    "template": "user-detail-view.xml",
+    "isDefault": true
+  },
+  {
+    "key": "FilterAdmin",
+    "name": "自定义的过滤 admin 用户后的用户列表视图",
+    "type": "List",
+    "forModel": "trantor_poc_User",
+    "template": "user-filter-admin-list-view.xml"
+  }
+]

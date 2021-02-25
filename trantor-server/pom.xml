@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>trantor-poc</artifactId>
+        <groupId>org.mecode.trantor</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>trantor-server</artifactId>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.mecode.trantor</groupId>
+            <artifactId>trantor-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.terminus.trantor</groupId>
+            <artifactId>framework</artifactId>
+        </dependency>
+        <!--测试框架-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+    </dependencies>
+
+
+    <build>
+
+        <plugins>
+            <!-- 上报信息至指定 metastore, 此时会根据 @Tmodel 创建对应 table -->
+            <plugin>
+                <groupId>io.terminus.trantor</groupId>
+                <artifactId>trantor-metadata-maven-plugin</artifactId>
+                <version>${trantor-maven-plugin.version}</version>
+                <configuration>
+                    <moduleKey>trantor_poc</moduleKey>
+                    <repositoryUrl>http://localhost:8082/terminus/mecode_trantor_poc</repositoryUrl>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>deploy</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

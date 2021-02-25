@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    include: >
+      trantor
+
+trantor:
+  # 有什么用？
+  mainModule: trantor_poc
