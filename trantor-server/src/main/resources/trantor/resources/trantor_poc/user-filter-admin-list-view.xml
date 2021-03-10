@@ -1,5 +1,5 @@
 <View title="过滤admin后的用户列表">
-    <Table key="table" model="terminus_trantor_demo_User">
+    <Table key="table" model="trantor_poc_User">
         <Fields>
             <Field name="name" label="用户名"/>
             <Field name="email" label="邮箱"/>

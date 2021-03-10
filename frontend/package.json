@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "T-tools dev",
+    "build": "T-tools build -s"
+  },
+  "author": "anonymous",
+  "license": "ISC",
+  "devDependencies": {
+    "@terminus/t-tools-externals-deps": "^0.0.2",
+    "@terminus/t-tools-externals-lazy-deps": "^0.0.2",
+    "@terminus/t-tools-externals-lazy-pkgs": "^0.0.2"
+  },
+  "tools-version": "1.16.0-alpha-noroute.10"
+}

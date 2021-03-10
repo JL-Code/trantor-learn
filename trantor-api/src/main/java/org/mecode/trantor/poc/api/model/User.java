@@ -5,9 +5,6 @@ import io.terminus.trantor.api.annotation.TModel;
 import io.terminus.trantor.api.annotation.TModelField;
 import lombok.Data;
 
-import java.util.Collection;
-import java.util.Collections;
-
 /**
  * <p>创建时间: 2021/2/25 </p>
  *

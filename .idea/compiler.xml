@@ -14,9 +14,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="trantor-api" options="-parameters" />
+      <module name="trantor-api" options="" />
       <module name="trantor-poc" options="-parameters" />
-      <module name="trantor-server" options="-parameters" />
+      <module name="trantor-server" options="" />
     </option>
   </component>
 </project>

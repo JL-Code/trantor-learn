@@ -1,4 +1,4 @@
-# trantor.yml 文件主要声明 模块key(模块 key 只能由小写字母和下划线和中划线组成)、
+# trantor.yml 文件主要声明 module_key(模块 key 只能由小写字母和下划线和中划线组成)、
 # 模块名称、模块版本、模块描述, 以及模块依赖等信息
 # http://trantor.terminus.io:8099/view/meta_store_management_ProjectForm_Project_Form?_keep=_m%2C_tenant&_m=%3A%3A&_tenant=1&action=meta_store_management_ProjectForm_toEdit&modelKey=tenant_Project
 product:
@@ -11,7 +11,7 @@ module:
   # 2. 不论何种资源，当需要引用它时，都需要带上模块 key（{moduleKey}_{resourceKey}） 来引用，举例来说，我们目前在做的模块为 terminus_trantor_demo ，然后我们定义了一个模型 User 。则完整可引用的模型 key 为
   # terminus_trantor_demo_User ，即 {moduleKey}_{resourceKey}
   key: trantor_poc # 用处：1. server 模块下视图页面的根目录名称
-  name: trantor demo
+  name: Trantor技术验证模块
   packageName: org.mecode.trantor.poc # 有什么用？
   version: 0.0.1-SNAPSHOT
-  description: first trantor demo
+  description:tenantKey Trantor技术验证模块

@@ -1,9 +1,8 @@
 [
   {
-    "originalKey": "user_list_view",
+    "originalKey": "user_list_all",
     "name": "用户列表",
     "routingType": "Action",
-    "desc": "用户列表",
     "routeKey": "trantor_poc_User_listAll"
   }
 ]

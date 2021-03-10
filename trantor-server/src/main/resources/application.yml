@@ -4,5 +4,5 @@ spring:
       trantor
 
 trantor:
-  # 有什么用？
+  # 有什么用？ {moduleKey}
   mainModule: trantor_poc

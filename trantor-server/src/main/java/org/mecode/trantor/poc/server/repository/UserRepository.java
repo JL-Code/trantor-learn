@@ -19,6 +19,8 @@ import java.util.List;
  *
  * @author zhengdong.jzd@alibaba-inc.com
  * @date 2020/7/13
+ *
+ *  TrantorDAO 已被废弃：https://trantor-docs.app.terminus.io/doc/marked/ds-client
  */
 @Repository
 public class UserRepository extends TrantorDAO<User, Long> {
