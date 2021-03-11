@@ -1,11 +1,14 @@
 import React from 'react';
 import { IRenderShowProps } from '@terminus/nusi-engine';
-type IProps = IRenderShowProps & {
 
+// TS 类型声明
+type IProps = IRenderShowProps & {
+  value: any;
 }
 
 export default class extends React.Component<IProps>{
   render() {
-    return <div>Tabs</div>
+    const { value } = this.props;
+    return <p>{value}</p>
   }
 }

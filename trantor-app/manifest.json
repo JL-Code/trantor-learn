@@ -1,0 +1,19 @@
+{
+  "HContainer": {
+    "type": "container",
+    "entry": {
+      "CustomComponents/HContainer": "./components/HContainer/index.tsx"
+    },
+    "model": "HUser",
+    "description": "Highzap二次开发容器"
+  },
+  "HInput": {
+    "type": "widget",
+    "entry": {
+      "CustomComponents/HInput.input": "./components/HInput/input.tsx",
+      "CustomComponents/HInput.show": "./components/HInput/show.tsx"
+    },
+    "model": "",
+    "description": "定义输入控件"
+  }
+}

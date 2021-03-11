@@ -3,7 +3,7 @@ const { dynamicExternals } = require('@terminus/t-tools-externals-lazy-pkgs');
 module.exports = {
 
   // 打包存放目录
-  dist: './dist',
+  dist: '../trantor-server/src/main/resources/trantor/resources/trantor_poc',
 
   // 开发配置
   dev: {
