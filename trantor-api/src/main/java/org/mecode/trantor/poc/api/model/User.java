@@ -5,6 +5,8 @@ import io.terminus.trantor.api.annotation.TModel;
 import io.terminus.trantor.api.annotation.TModelField;
 import lombok.Data;
 
+import java.util.Date;
+
 /**
  * <p>创建时间: 2021/2/25 </p>
  *
@@ -24,4 +26,7 @@ public class User extends BaseModel<Long> {
 
     @TModelField(name = "电话")
     private String phone;
+
+    @TModelField(name = "生日")
+    private Date birthday;
 }

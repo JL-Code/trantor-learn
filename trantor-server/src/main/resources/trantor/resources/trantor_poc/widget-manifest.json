@@ -1,0 +1,7 @@
+{
+  "HInput": {
+    "desc": "定义输入控件",
+    "input": "CustomComponents/HInput.input.js",
+    "show": "CustomComponents/HInput.show.js"
+  }
+}

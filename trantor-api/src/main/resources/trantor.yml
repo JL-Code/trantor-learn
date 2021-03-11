@@ -14,4 +14,4 @@ module:
   name: Trantor技术验证模块
   packageName: org.mecode.trantor.poc # 有什么用？
   version: 0.0.1-SNAPSHOT
-  description:tenantKey Trantor技术验证模块
+  description: Trantor技术验证模块
