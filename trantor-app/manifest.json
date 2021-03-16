@@ -15,5 +15,13 @@
     },
     "model": "",
     "description": "定义输入控件"
+  },
+  "CustomTreeTable": {
+    "type": "container",
+    "entry": {
+      "CustomComponents/CustomTreeTable": "./components/CustomTreeTable/index.tsx"
+    },
+    "model": "",
+    "description": ""
   }
 }
