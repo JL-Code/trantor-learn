@@ -35,19 +35,12 @@
             </exclusions>
         </dependency>
 
-        <!--测试框架-->
-        <!--        <dependency>-->
-        <!--            <groupId>org.springframework.boot</groupId>-->
-        <!--            <artifactId>spring-boot-starter-test</artifactId>-->
-        <!--            -->
-        <!--            <scope>test</scope>-->
-        <!--            <exclusions>-->
-        <!--                <exclusion>-->
-        <!--                    <groupId>org.junit.vintage</groupId>-->
-        <!--                    <artifactId>junit-vintage-engine</artifactId>-->
-        <!--                </exclusion>-->
-        <!--            </exclusions>-->
-        <!--        </dependency>-->
+        <!--Trantor 测试框架-->
+        <dependency>
+            <groupId>io.terminus.trantor</groupId>
+            <artifactId>test-framework</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 

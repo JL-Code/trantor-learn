@@ -1,0 +1,14 @@
+[
+  {
+    "key": "ListTreeTable",
+    "name": "结构化展示科目",
+    "forModel": "trantor_poc_Subject",
+    "extra": {
+      "dataSource": "Action",
+      "openViewType": "Self",
+      "target": "trantor_poc_Subject_CustomTreeTable",
+      "actionKey": "trantor_poc_Subject_SubjectDataAction"
+    },
+    "desc": ""
+  }
+]

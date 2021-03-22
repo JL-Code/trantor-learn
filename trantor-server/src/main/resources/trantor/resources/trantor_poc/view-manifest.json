@@ -29,5 +29,21 @@
     "type": "List",
     "forModel": "trantor_poc_User",
     "template": "user-filter-admin-list-view.xml"
+  },
+  {
+    "key": "Tree",
+    "name": "科目列表",
+    "type": "List",
+    "forModel": "trantor_poc_Subject",
+    "template": "subject-Tree-view.xml",
+    "isDefault": true
+  },
+  {
+    "key": "CustomTreeTable",
+    "name": "树表格",
+    "type": "List",
+    "forModel": "trantor_poc_Subject",
+    "template": "subject-CustomTreeTable-view.xml",
+    "isDefault": false
   }
 ]

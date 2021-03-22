@@ -1,7 +1,7 @@
 {
-  "HContainer": {
-    "forModle": "HUser",
-    "desc": "Highzap二次开发容器",
-    "file": "CustomComponents/HContainer.js"
+  "CustomTreeTable": {
+    "forModle": "",
+    "desc": "TreeTable",
+    "file": "CustomComponents/CustomTreeTable.js"
   }
 }

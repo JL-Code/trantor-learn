@@ -4,5 +4,17 @@
     "name": "用户列表",
     "routingType": "Action",
     "routeKey": "trantor_poc_User_listAll"
+  },
+  {
+    "originalKey": "subject_list_all",
+    "name": "科目列表",
+    "routingType": "Action",
+    "routeKey": "trantor_poc_Subject_listAll"
+  },
+  {
+    "originalKey": "subject_treetable",
+    "name": "科目树表格",
+    "routingType": "Action",
+    "routeKey": "trantor_poc_Subject_ListTreeTable"
   }
 ]

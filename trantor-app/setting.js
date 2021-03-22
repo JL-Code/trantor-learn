@@ -8,7 +8,7 @@ module.exports = {
   // dist: './dist',
   // 开发配置
   dev: {
-    port: 8000,
+    port: 8001,
     browser: true
   },
 

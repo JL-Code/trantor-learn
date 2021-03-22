@@ -1,0 +1,48 @@
+<View title="科目列表">
+    <Table key="table" model="trantor_poc_Subject">
+        <Search>
+            <Fields>
+                <Field name="isControlled"/>
+                <Field name="isProductCost"/>
+                <Field name="level"/>
+                <Field name="parentCode"/>
+                <Field name="remarks"/>
+                <Field name="subjectCode"/>
+                <Field name="subjectId"/>
+                <Field name="subjectName"/>
+                <Field name="subjectType"/>
+                <Field name="id"/>
+                <Field name="createdAt"/>
+                <Field name="createdBy"/>
+                <Field name="isDeleted"/>
+                <Field name="updatedAt"/>
+                <Field name="updatedBy"/>
+            </Fields>
+        </Search>
+        <RecordActions label="操作">
+            <Action label="详情" action="trantor_poc_Subject_toDetail"/>
+            <Action label="编辑" action="trantor_poc_Subject_toEdit"/>
+            <Action label="删除" action="trantor_poc_Subject_delete" after="Refresh"/>
+        </RecordActions>
+        <Fields>
+            <Field name="isControlled"/>
+            <Field name="isProductCost"/>
+            <Field name="level"/>
+            <Field name="parentCode"/>
+            <Field name="remarks"/>
+            <Field name="subjectCode"/>
+            <Field name="subjectId"/>
+            <Field name="subjectName"/>
+            <Field name="subjectType"/>
+            <Field name="id"/>
+            <Field name="createdAt"/>
+            <Field name="createdBy"/>
+            <Field name="isDeleted"/>
+            <Field name="updatedAt"/>
+            <Field name="updatedBy"/>
+        </Fields>
+        <Actions>
+            <Action type="Create" action="trantor_poc_Subject_toEdit"/>
+        </Actions>
+    </Table>
+</View>

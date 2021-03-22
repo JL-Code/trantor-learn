@@ -36,6 +36,12 @@
                 <version>${trantor.version}</version>
             </dependency>
             <dependency>
+                <groupId>io.terminus.trantor</groupId>
+                <artifactId>test-framework</artifactId>
+                <version>${trantor.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.mecode.trantor</groupId>
                 <artifactId>trantor-api</artifactId>
                 <version>${project.version}</version>
